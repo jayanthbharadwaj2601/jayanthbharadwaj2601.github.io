@@ -2,21 +2,26 @@ body
 {
     background-image: url("bg1.png");
 }
-@media (max-width: 420px)
+@media (max-width: 376px)
 {
     body
     {
         background-color: hsl(185, 75%, 39%);
         background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
-        background-size: 250px,250px;
-        background-position: left -50px top -50px,bottom 50px right -30px;
+        background-size: 250px,300px;
+        background-position: left -50px top -50px,bottom 50px right -130px;
         background-repeat: no-repeat,no-repeat;
     }
     #alignment
     {
         position: relative;
-        left: -450px;
+        left: -400px;
         top: 40px;
+    }
+    .attribution
+    {
+        position: relative;
+        right: -50px;
     }
 }
 @media (max-height: 420px)
