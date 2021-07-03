@@ -1,0 +1,81 @@
+body
+{
+    background-image: url("bg1.png");
+}
+@media (max-width: 420px)
+{
+    body
+    {
+        background-color: hsl(185, 75%, 39%);
+        background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
+        background-size: 250px,250px;
+        background-position: left -50px top -50px,bottom 50px right -30px;
+        background-repeat: no-repeat,no-repeat;
+    }
+    #alignment
+    {
+        position: relative;
+        left: -450px;
+        top: 40px;
+    }
+}
+@media (max-height: 420px)
+{
+    body
+    {
+        background-color: hsl(185, 75%, 39%);
+        background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
+        background-size: 400px,400px;
+        background-position: left -50px top -70px,bottom 50px right -100px;
+        background-repeat: no-repeat,no-repeat;
+    }
+    #alignment
+    {
+        position: relative;
+        left: -290px;
+    }
+}
+.details
+{
+    
+    text-align: center;
+}
+.pro
+{
+    background-color: white;
+    width: 350px;
+    display: grid;
+    grid-template-rows: 100px 40px 200px;
+    border-radius: 10px;
+}
+.profilepic
+{
+    padding: 0px 125px 0px 125px;
+}
+#a1
+{
+    border-radius: 50px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+}
+#a2
+{
+    border-radius: 10px 10px 0px 0px;
+}
+hr
+{
+    color: rgb(248, 245, 245);
+    width: 300px;
+}
+#alignment
+{
+    padding: 100px 450px 100px 450px;
+    position: relative;
+}
+#stats
+{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    text-align: center;
+}
