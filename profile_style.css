@@ -2,7 +2,7 @@ body
 {
     background-color: hsl(185, 75%, 39%);
     background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
-    background-position: left -400px top -500px,bottom -500px right -200px;
+    background-position: left -400px top -500px,bottom -500px right -150px;
     background-repeat: no-repeat,no-repeat;
 }
 @media (max-width: 376px)
@@ -79,7 +79,7 @@ hr
 }
 #alignment
 {
-    padding: 100px 450px 100px 450px;
+    padding: 100px 480px 100px 480px;
     position: relative;
 }
 #stats
