@@ -21,7 +21,7 @@ body
     .attribution
     {
         position: relative;
-        right: -100px;
+        right: -75px;
     }
 }
 @media (max-height: 420px)
