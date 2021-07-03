@@ -22,7 +22,7 @@ body
     {
         position: relative;
         right: -75px;
-        background-color:None;
+        background-color:transparent;
     }
 }
 @media (max-height: 420px)
