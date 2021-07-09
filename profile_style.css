@@ -2,30 +2,30 @@ body
 {
     background-color: hsl(185, 75%, 39%);
     background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
-    background-position: left -400px top -500px,bottom -500px right -150px;
+    background-position: left -400px top -500px ,bottom -600px right -300px;
+    background-size: 900px, 900px;
     background-repeat: no-repeat,no-repeat;
 }
-@media (max-width: 376px)
+@media (max-width: 420px)
 {
     body
     {
         background-color: hsl(185, 75%, 39%);
         background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
         background-size: 250px,300px;
-        background-position: left -50px top -50px,bottom 50px right -200px;
+        background-position: left -50px top -50px,bottom -300px right -100px;
         background-repeat: no-repeat,no-repeat;
     }
     #alignment
     {
         position: relative;
-        left: -380px;
-        top: 40px;
+        left: -30%;
+        top: 100px;
     }
     .attribution
     {
         position: relative;
-        right: -75px;
-        background-color:transparent;
+        bottom: -100px;
     }
 }
 @media (max-height: 420px)
@@ -35,13 +35,13 @@ body
         background-color: hsl(185, 75%, 39%);
         background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
         background-size: 400px,400px;
-        background-position: left -50px top -70px,bottom 50px right -100px;
+        background-position: left -80px top -90px,bottom -80px right -90px;
         background-repeat: no-repeat,no-repeat;
     }
     #alignment
     {
         position: relative;
-        left: -290px;
+        left: -50px;
     }
 }
 .details
@@ -56,6 +56,9 @@ body
     display: grid;
     grid-template-rows: 100px 40px 200px;
     border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 50px;
 }
 .profilepic
 {
@@ -77,11 +80,7 @@ hr
     color: rgb(248, 245, 245);
     width: 300px;
 }
-#alignment
-{
-    padding: 100px 480px 100px 480px;
-    position: relative;
-}
+
 #stats
 {
     display: grid;
