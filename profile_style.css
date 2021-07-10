@@ -35,13 +35,13 @@ body
     #alignment
     {
         position: relative;
-        top: 80px;
+        top: 40px;
         left: -125px;
     }
     .attribution
     {
         position: relative;
-        bottom: -100px;
+        bottom: -50px;
         right: -100px;
     }
 }
