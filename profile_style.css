@@ -17,6 +17,11 @@ body
     position: relative;
     left: -150px;
 }
+    .attribution
+    {
+        position:relative;
+        left:-20px;
+    }
 }
 @media (max-width: 420px)
 {
